@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDEX — ARCHIVE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- menu -->
+    <div class="hamburger-container">
+        <button class="hamburger-btn" id="hamburgerBtn">[ ☰ MENU ]</button>
+        <div class="hamburger-dropdown" id="hamburgerDropdown">
+            <a class="dropdown-item" data-target="about"><span>#00 About Me</span><span>[GO]</span></a>
+            <a class="dropdown-item" data-target="1"><span>#01 Programming projects</span><span>[GO]</span></a>
+            <a class="dropdown-item" data-target="2"><span>#02 Parametric 3d cad creations</span><span>[GO]</span></a>
+            <a class="dropdown-item" data-target="3"><span>#03 Hardware</span><span>[GO]</span></a>
+            <a class="dropdown-item" data-target="4"><span>#04 Curriculum Vitae (CV)</span><span>[GO]</span></a>
+            <a class="dropdown-item" data-target="5"><span>#05 Contact me</span><span>[GO]</span></a>
+            <a class="dropdown-item" id="themeToggleItem"><span>#06 Theme</span><span id="themeToggleText">[LIGHT]</span></a>
+        </div>
+    </div>
+
+    <header>
+        <h1>ARTUS // PROJECT ARCHIVE</h1>
+    </header>
+
+    <div class="main-layout">
+
+        <!-- #00 ABOUT ME -->
+        <section class="open-section center-section" id="about" data-id="about">
+            <div class="section-title-line">
+                <span class="drop-num">#00</span>
+                <span class="drop-title">About Me</span>
+            </div>
+            <div class="open-body-text">
+                <p class="drop-desc" style="max-width: 700px; margin: 0 auto 15px auto;">Sup. I am just a guy who is a multi-disciplinary builder with hands-on experience in CAD modeling, software scripting, and hardware troubleshooting. Comfortable maintaining physical equipment, debugging code, and managing technical workflows from concept to completion. </p>
+                <p class="drop-desc" style="max-width: 700px; margin: 0 auto 15px auto;">CLICK THE BOXES BELOW TO VIEW MY SELECTED WORK </p>
+                <div class="drop-specs" style="border-left: none; padding-left: 0; display: inline-block; text-align: left;">
+                </div>
+            </div>
+        </section>
+
+        <main class="drop-list">
+            <!-- #01 PROGRAMMING PROJECTS -->
+            <div class="drop-item" data-id="1">
+                <div class="drop-header">
+                    <div class="drop-left">
+                        <span class="drop-num">#01</span>
+                        <span class="drop-title">Programming projects</span>
+                    </div>
+                    <div class="drop-right">
+                        <span class="drop-tag">[sys_programs]</span>
+                        <span class="drop-status">[+] EXPAND</span>
+                    </div>
+                </div>
+                <div class="drop-content-wrap">
+                    <div class="drop-content-inner">
+                        <div class="project-padding">
+                            <div class="multi-project-container">
+                                <div class="sub-project">
+                                    <div class="sub-project-media compact-media carousel-container" id="carousel-1">
+                                        <button class="carousel-btn prev-btn" onclick="moveCarousel('carousel-1', -1)">&lt;</button>
+                                        <div class="carousel-track">
+                                            <div class="carousel-slide active">
+                                                <span class="media-tag">[sys_video_01]</span>
+                                                <video autoplay loop muted playsinline src="assets/Programming/PGM1.mp4"></video>
+                                            </div>
+                                            <div class="carousel-slide">
+                                                <span class="media-tag">[sys_video_02]</span>
+                                                <video autoplay loop muted playsinline src="assets/Programming/PGM2.mp4"></video>
+                                            </div>
+                                            <div class="carousel-slide">
+                                                <span class="media-tag">[sys_video_03]</span>
+                                                <video autoplay loop muted playsinline src="assets/Programming/PGM3.mp4"></video>
+                                            </div>
+                                        </div>
+                                        <button class="carousel-btn next-btn" onclick="moveCarousel('carousel-1', 1)">&gt;</button>
+                                    </div>
+                                    <div class="sub-project-info">
+                                        <h3 class="sub-project-title">// 01. Real-Time Multiplayer Tag/Catching Game</h3>
+                                        <p class="drop-desc">A little fast paced multiplayer game where players chase each other just like when we were kids. But with a modern twist! Power ups and multiple dynamic maps to explore </p>
+                                        <div class="drop-specs">
+                                            Stack: C#/Unity/Photon<br>
+                                            Status: Complete<br>
+                                            Check it out here: <a href="https://github.com/ArtusL/PlayGroundMayhemPhoton" target="_blank">[ GITHUB LINK ]</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="project-divider">
+                                    <div class="project-divider-content">
+                                        <span>SUB_MODULE_02</span>
+                                        <span class="project-dot"></span>
+                                        <span>ARCHIVE_REF</span>
+                                    </div>
+                                </div>
+
+                               <div class="sub-project">
+                                    <div class="sub-project-media compact-media carousel-container" id="carousel-2">
+                                        <button class="carousel-btn prev-btn" onclick="moveCarousel('carousel-2', -1)">&lt;</button>
+                                        <div class="carousel-track">
+                                            <div class="carousel-slide active">
+                                                <span class="media-tag">[sys_video_01]</span>
+                                                <video autoplay loop muted playsinline src="assets/Programming/ArdentVid1.mp4"></video>
+                                            </div>
+                                            <div class="carousel-slide">
+                                                <span class="media-tag">[sys_video_02]</span>
+                                                <video autoplay loop muted playsinline src="assets/Programming/ArdentVid2.mp4"></video>
+                                            </div>
+                                            <div class="carousel-slide">
+                                                <span class="media-tag">[sys_video_03]</span>
+                                                <video autoplay loop muted playsinline src="assets/Programming/ArdentVid3.mp4"></video>
+                                            </div>
+                                             <div class="carousel-slide">
+                                                <span class="media-tag">[sys_Picture]</span>
+                                                <img src="assets/Programming/Ardent1.png" alt="Project Image">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-btn next-btn" onclick="moveCarousel('carousel-2', 1)">&gt;</button>
+                                    </div>
+                                    <div class="sub-project-info">
+                                        <h3 class="sub-project-title">// 02. Educational Interactive Dental Mobile App</h3>
+                                        <p class="drop-desc">A Final year group project focused on one thing. to develope an interactive mobile app for our own inhouse dentists to be used for first year dental students </p>
+                                        <div class="drop-specs">
+                                            Role: Co-Lead / Client liaison / UI and Graphics Programmer<br>
+                                            Stack: C# / Unity<br>
+                                            Status: Complete<br>
+                                            Check it out here: <a href="https://github.com/yettd/NYP_FYP_2023" target="_blank">[ GITHUB LINK ]</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- #02 PARAMETRIC 3D CAD CREATIONS -->
+            <div class="drop-item" data-id="2">
+                <div class="drop-header">
+                    <div class="drop-left">
+                        <span class="drop-num">#02</span>
+                        <span class="drop-title">Parametric 3d cad creations</span>
+                    </div>
+                    <div class="drop-right">
+                        <span class="drop-tag">[sys_cad]</span>
+                        <span class="drop-status">[+] EXPAND</span>
+                    </div>
+                </div>
+                <div class="drop-content-wrap">
+                    <div class="drop-content-inner">
+                        <div class="project-padding">
+                            <div class="multi-project-container">
+                                <div class="sub-project">
+                                    <div class="sub-project-media compact-media carousel-container" id="carousel-3">
+                                        <button class="carousel-btn prev-btn" onclick="moveCarousel('carousel-3', -1)">&lt;</button>
+                                        <div class="carousel-track">
+                                            <div class="carousel-slide active">
+                                                <span class="media-tag">[sys_video_01]</span>
+                                                <video autoplay loop muted playsinline src="assets/CADstuff/FullGripVid.mp4"></video>
+                                            </div>
+                                            <div class="carousel-slide">
+                                                <span class="media-tag">[sys_Picture_01]</span>
+                                                <img src="assets/CADstuff/TopGrip.png" alt="top Grip Image">
+                                            </div>
+                                            <div class="carousel-slide">
+                                                <span class="media-tag">[sys_Picture_02]</span>
+                                                <img src="assets/CADstuff/BottomJaw.png" alt="bottom Grip Image">
+                                            </div>
+                                            <div class="carousel-slide">
+                                                <span class="media-tag">[sys_Picture_03]</span>
+                                                <img src="assets/CADstuff/Fullgrip.png" alt="Full Grip Image">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-btn next-btn" onclick="moveCarousel('carousel-3', 1)">&gt;</button>
+                                    </div>
+                                    <div class="sub-project-info">
+                                        <h3 class="sub-project-title">// 01. Herman Miller Headrest Clamp</h3>
+                                        <p class="drop-desc"> A headrest clamp for the famous Herman Miller Aeron Chair. I didnt want to spend 200 bucks on a headrest so i designed the clamp to fit any 3rd party headrest. It garnered a small community remixing it to fit their headrests. </p>
+                                        <div class="drop-specs">
+                                            Software: Freecad<br>
+                                            Status: Complete<br>
+                                            Check it out here: <a href="https://www.thingiverse.com/thing:5426994" target="_blank">[ Thingiverse LINK ]</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="project-divider">
+                                    <div class="project-divider-content">
+                                        <span>SUB_MODULE_02</span>
+                                        <span class="project-dot"></span>
+                                        <span>ARCHIVE_REF</span>
+                                    </div>
+                                </div>
+
+                                <div class="sub-project">
+                                    <div class="sub-project-media compact-media carousel-container" id="carousel-4">
+                                        <button class="carousel-btn prev-btn" onclick="moveCarousel('carousel-4', -1)">&lt;</button>
+                                        <div class="carousel-track">
+                                            <div class="carousel-slide active">
+                                                <span class="media-tag">[sys_Picture_01]</span>
+                                                <img src="assets/CADstuff/BraceISO.png" alt="ISO Image">
+                                            </div>
+                                            <div class="carousel-slide">
+                                                <span class="media-tag">[sys_Picture_02]</span>
+                                                <img src="assets/CADstuff/FannoBrace.jpeg" alt="No Brace Image">
+                                            </div>
+                                            <div class="carousel-slide">
+                                                <span class="media-tag">[sys_Picture_03]</span>
+                                                <img src="assets/CADstuff/BraceFan.jpeg" alt="Brace Image">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-btn next-btn" onclick="moveCarousel('carousel-4', 1)">&gt;</button>
+                                    </div>
+                                    <div class="sub-project-info">
+                                        <h3 class="sub-project-title">// 02. KDK Fan Structural Brace</h3>
+                                        <p class="drop-desc">Engineered a custom 3D-printed structural reinforcement part to resolve a notorious humidity- and vibration-induced failure common in KDK NH40S and equivalent fan models.</p>
+                                        <div class="drop-specs">
+                                            Software: Freecad<br>
+                                            Status: Complete<br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- #03 HARDWARE -->
+            <div class="drop-item" data-id="3">
+                <div class="drop-header">
+                    <div class="drop-left">
+                        <span class="drop-num">#03</span>
+                        <span class="drop-title">Hardware</span>
+                    </div>
+                    <div class="drop-right">
+                        <span class="drop-tag">[sys_hardware]</span>
+                        <span class="drop-status">[+] EXPAND</span>
+                    </div>
+                </div>
+              <div class="drop-content-wrap">
+                    <div class="drop-content-inner">
+                        <div class="project-padding">
+                            <div class="multi-project-container">
+
+                                <div class="sub-project">
+                                    <div class="sub-project-media compact-media carousel-container" id="carousel-5">
+                                        <button class="carousel-btn prev-btn" onclick="moveCarousel('carousel-5', -1)">&lt;</button>
+                                        <div class="carousel-track">
+                                            <div class="carousel-slide active">
+                                                <span class="media-tag">[sys_Picture_01]</span>
+                                                <img src="assets/Hardware/RunningPC.jpeg" alt="Running PC Image">
+                                            </div>
+                                            <div class="carousel-slide">
+                                                <span class="media-tag">[sys_Picture_02]</span>
+                                                <img src="assets/Hardware/SideofPC.jpeg" alt="Side of PC Image">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-btn next-btn" onclick="moveCarousel('carousel-5', 1)">&gt;</button>
+                                    </div>
+                                    <div class="sub-project-info">
+                                        <h3 class="sub-project-title">// 01. The Locomotive (Custom PC) </h3>
+                                        <p class="drop-desc">I have built, diagnosed, and maintained many many custom PCs over the years. So this time i tried to challanging my self. A ultra compact and silent build with custom fans and 3D printed parts  </p>
+                                    </div>
+                                </div>
+
+                                <div class="project-divider">
+                                    <div class="project-divider-content">
+                                        <span>SUB_MODULE_02</span>
+                                        <span class="project-dot"></span>
+                                        <span>ARCHIVE_REF</span>
+                                    </div>
+                                </div>
+
+                                <div class="sub-project">
+                                    <div class="sub-project-media compact-media carousel-container" id="carousel-6">
+                                        <button class="carousel-btn prev-btn" onclick="moveCarousel('carousel-6', -1)">&lt;</button>
+                                        <div class="carousel-track">
+                                            <div class="carousel-slide active">
+                                                <span class="media-tag">[sys_Picture_01]</span>
+                                                <img src="assets/Hardware/NASinside.jpeg" alt="NAS Inside Image">
+                                            </div>
+                                            <div class="carousel-slide">
+                                                <span class="media-tag">[sys_Picture_02]</span>
+                                                <img src="assets/Hardware/Load.png " alt="Load Image">
+                                            </div>
+                                            <div class="carousel-slide">
+                                                <span class="media-tag">[sys_Picture_03]</span>
+                                                <img src="assets/Hardware/Fullpc.jpeg " alt="Full PC Image">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-btn next-btn" onclick="moveCarousel('carousel-6', 1)">&gt;</button>
+                                    </div>
+                                    <div class="sub-project-info">
+                                        <h3 class="sub-project-title">// 02. Cost-Effective NAS</h3>
+                                        <p class="drop-desc">A low cost while being a great and powerful network-attached storage solution for home and small office use. The challange? under $100</p>
+                                        <div class="drop-specs">
+                                            Stack: Linux / OpenMediaVault / Portainer<br>
+                                            Status: Operational
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- #04 CURRICULUM VITAE (CV) -->
+            <div class="drop-item" data-id="4">
+                <div class="drop-header">
+                    <div class="drop-left">
+                        <span class="drop-num">#04</span>
+                        <span class="drop-title">Curriculum Vitae (CV)</span>
+                    </div>
+                    <div class="drop-right">
+                        <span class="drop-tag">[sys_cv]</span>
+                        <span class="drop-status">[+] EXPAND</span>
+                    </div>
+                </div>
+                <div class="drop-content-wrap">
+                    <div class="drop-content-inner">
+                        <div class="cv-padding">
+                            <div class="max-w-800 mx-auto">
+                                <p class="drop-desc text-center" style="text-transform: none; margin-bottom: 20px;">
+                                    Interned at Cargo Studios
+                                </p>
+                                <div class="drop-specs mx-auto text-left" style="border-left: none; padding-left: 0; display: inline-block;">
+                                    As a: Game Developer Intern<br>
+                                    Date: Oct 2023 - Jan 2024
+                                </div>
+
+                                <div style="margin: 80px 0;"></div>
+
+                                <p class="drop-desc text-center" style="text-transform: none; margin-bottom: 20px;">
+                                    Graduated from Nanyang Polytechnic
+                                </p>
+                                <div class="drop-specs mx-auto text-left" style="border-left: none; padding-left: 0; display: inline-block;">
+                                    Diploma: Game Development and Technology<br>
+                                    Year: 2024
+                                </div>
+
+                                <div style="margin: 80px 0;"></div>
+
+                                <p class="drop-desc text-center" style="text-transform: none; margin-bottom: 20px;">
+                                    Check out my resume👇
+                                </p>
+                                <div class="drop-specs mx-auto text-left" style="border-left: none; padding-left: 0; display: inline-block;">
+                                    Format: PDF document<br>
+                                    Status: Current<br>
+                                    Link: <a href="assets/resume.pdf" target="_blank">[ VIEW RESUME PDF ]</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <!-- #05 CONTACT ME -->
+        <section class="open-section center-section contact-section-wrap" id="5" data-id="5">
+            <div class="section-title-line">
+                <span class="drop-num">#05</span>
+                <span class="drop-title">Contact me</span>
+            </div>
+            <div class="open-body-text">
+                <div class="max-w-600">
+                    <p class="drop-desc text-center" style="margin-bottom: 15px;">Get in touch if you want to discuss potential collaborations or you just wanna talk to me 😀</p>
+                    <p class="drop-desc text-center" style="margin-bottom: 15px;">I have many more porjects</p>
+                    <div class="text-center" style="margin-bottom: 25px;">
+                        <div class="drop-specs mx-auto text-left" style="border-left: none; padding-left: 0; display: inline-block;">
+                            Email: Artxxxxx@gmail.com<br>
+                            Phone No.: 9xxxxxxx<br>
+                            Status: Accepting Inquiries
+                        </div>
+                    </div>
+                    
+                    <div class="project-divider" style="margin: 30px 0;">
+                        <div class="project-divider-content">
+                            <span>//</span>
+                            <span class="project-dot"></span>
+                            <span>OR</span>
+                            <span class="project-dot"></span>
+                            <span>//</span>
+                        </div>
+                    </div>
+
+                    <p class="text-center" style="font-size: 0.95rem; margin-bottom: 20px; color: var(--fg); letter-spacing: 1px;">[ LEAVE A MESSAGE ]</p>
+                    
+                    <form id="contactForm" action="https://api.web3forms.com/submit" method="POST" class="form-container">
+                        <input type="hidden" name="access_key" value="ccd0d956-dc85-4451-8f33-446c7bd09c85">
+                        
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required placeholder="ENTER YOUR NAME" class="brutalist-input">
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required placeholder="ENTER YOUR EMAIL" class="brutalist-input">
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required placeholder="ENTER YOUR MESSAGE OR DESCRIPTION..." class="brutalist-input" style="resize: vertical;"></textarea>
+                        </div>
+                        
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                        <button type="submit" class="brutalist-submit-btn">[ TRANSMIT MESSAGE ]</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>SYSTEM ONLINE ✌</p>
+    </footer>
+
+    <script>
+        const items = document.querySelectorAll('.drop-item');
+        items.forEach(item => {
+            const header = item.querySelector('.drop-header');
+            const statusText = item.querySelector('.drop-status');
+
+            header.addEventListener('click', () => {
+                const isOpen = item.classList.contains('active');
+                items.forEach(i => {
+                    i.classList.remove('active');
+                    i.querySelector('.drop-status').textContent = '[+] EXPAND';
+                });
+                if (!isOpen) {
+                    item.classList.add('active');
+                    statusText.textContent = '[-] CLOSE';
+                }
+            });
+        });
+
+        const hamburgerBtn = document.getElementById('hamburgerBtn');
+        const hamburgerDropdown = document.getElementById('hamburgerDropdown');
+        const dropdownItems = document.querySelectorAll('.dropdown-item:not(#themeToggleItem)');
+
+        hamburgerBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            hamburgerDropdown.classList.toggle('open');
+        });
+
+        document.addEventListener('click', () => {
+            hamburgerDropdown.classList.remove('open');
+        });
+
+        hamburgerDropdown.addEventListener('click', (e) => {
+            e.stopPropagation();
+        });
+
+        dropdownItems.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const targetId = link.getAttribute('data-target');
+                const targetPermanent = document.getElementById(targetId);
+                const targetItem = document.querySelector(`.drop-item[data-id="${targetId}"]`);
+                hamburgerDropdown.classList.remove('open');
+
+                if (targetPermanent) {
+                    targetPermanent.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                } else if (targetItem) {
+                    items.forEach(i => {
+                        i.classList.remove('active');
+                        i.querySelector('.drop-status').textContent = '[+] EXPAND';
+                    });
+                    targetItem.classList.add('active');
+                    targetItem.querySelector('.drop-status').textContent = '[-] CLOSE';
+                    
+                    setTimeout(() => {
+                        targetItem.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }, 50);
+                }
+            });
+        });
+
+        const themeToggleItem = document.getElementById('themeToggleItem');
+        const themeToggleText = document.getElementById('themeToggleText');
+        const currentTheme = localStorage.getItem('theme');
+        
+        if (currentTheme === 'light') {
+            document.body.classList.add('light-mode');
+            themeToggleText.textContent = '[DARK]';
+        }
+
+        themeToggleItem.addEventListener('click', (e) => {
+            e.preventDefault();
+            document.body.classList.toggle('light-mode');
+            if (document.body.classList.contains('light-mode')) {
+                localStorage.setItem('theme', 'light');
+                themeToggleText.textContent = '[DARK]';
+            } else {
+                localStorage.setItem('theme', 'dark');
+                themeToggleText.textContent = '[LIGHT]';
+            }
+        });
+
+        function moveCarousel(containerId, direction) {
+            const container = document.getElementById(containerId);
+            const slides = container.querySelectorAll('.carousel-slide');
+            let activeIndex = Array.from(slides).findIndex(slide => slide.classList.contains('active'));
+            
+            slides[activeIndex].classList.remove('active');
+            const currentVideo = slides[activeIndex].querySelector('video');
+            if (currentVideo) currentVideo.pause();
+
+            activeIndex = (activeIndex + direction + slides.length) % slides.length;
+            
+            slides[activeIndex].classList.add('active');
+            const nextVideo = slides[activeIndex].querySelector('video');
+            if (nextVideo) {
+                nextVideo.currentTime = 0;
+                nextVideo.play().catch(e => console.log(e));
+            }
+        }
+
+        // Web3Forms AJAX & Toast Pop-up Handler
+        const form = document.getElementById('contactForm');
+
+        function showToast(message) {
+            let toast = document.getElementById('toastNotification');
+            if (!toast) {
+                toast = document.createElement('div');
+                toast.id = 'toastNotification';
+                toast.className = 'toast-notification';
+                document.body.appendChild(toast);
+            }
+            toast.textContent = message;
+            toast.classList.add('show');
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 4000);
+        }
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const formData = new FormData(form);
+            const object = Object.fromEntries(formData);
+            const json = JSON.stringify(object);
+            
+            showToast("[ TRANSMITTING MESSAGE... ]");
+
+            fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: json
+            })
+            .then(async (response) => {
+                let jsonResponse = await response.json();
+                if (response.status == 200) {
+                    showToast("[ THANKS, I WILL GET BACK TO YOU ASAP ]");
+                    form.reset();
+                } else {
+                    console.log(jsonResponse);
+                    showToast("[ ERROR: PLEASE TRY AGAIN ]");
+                }
+            })
+            .catch(error => {
+                console.log(error);
+                showToast("[ TRANSMISSION FAILED ]");
+            });
+        });
+    </script>
+</body>
+</html>

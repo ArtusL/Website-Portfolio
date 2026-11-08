@@ -6,7 +6,7 @@
     --card-bg: #080808;
     --hover-bg: #111111;
     --desc-color: #cccccc;
-    --accent: #00ff66;
+    --accent: #00ff6681;
 }
 
 body.light-mode {
@@ -26,6 +26,15 @@ body.light-mode {
     padding: 0;
 }
 
+.hamburger-container {
+    position: fixed;
+    top: 60px;
+    right: 50px;
+    z-index: 1000;
+}
+
+.main-layout, 
+
 body {
     font-family: "IBM Plex Mono", Courier, monospace;
     font-weight: 500;
@@ -39,13 +48,24 @@ body {
     justify-content: space-between;
     text-transform: uppercase;
     transition: background-color 0.2s ease, color 0.2s ease;
+    position: relative;
+    overflow-x: hidden;
 }
 
-.hamburger-container {
+body::before {
+    content: "";
     position: fixed;
-    top: 30px;
-    right: 40px;
-    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('Assets/grid.jpg');
+    background-repeat: repeat;
+    background-size: 400px;
+    background-position: center;
+    opacity: 0.12;
+    pointer-events: none;
+    z-index: 0;
 }
 
 .hamburger-btn {
@@ -128,12 +148,18 @@ header h1 {
 .main-layout {
     width: 100%;
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px; 
 }
 
 .open-section {
     width: 100%;
-    margin-bottom: 150px;
-    background-color: var(--bg);
+    margin-bottom: 0px;
+    background-color: var(--card-bg);
+    border: 2px solid var(--border);
+    padding: 40px 30px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
 }
 
 .section-title-line {
@@ -180,7 +206,9 @@ header h1 {
     width: 100%;
     display: flex;
     flex-direction: column;
-    border-top: 2px solid var(--border);
+    background-color: var(--card-bg);
+    border: 2px solid var(--border);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
 }
 
 .drop-item {

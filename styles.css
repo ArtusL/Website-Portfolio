@@ -180,12 +180,12 @@ header h1 {
 
 .open-body-content {
     padding: 0 20px;
-    background-color: var(--bg);
+     background-color: var(--card-bg);
 }
 
 .open-body-text {
     padding: 0 20px;
-    background-color: var(--bg);
+     background-color: var(--card-bg);
 }
 
 /* Centered Modifier */

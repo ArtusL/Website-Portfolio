@@ -29,7 +29,7 @@ body.light-mode {
 .hamburger-container {
     position: fixed;
     top: 60px;
-    right: 50px;
+    right: 70px;
     z-index: 1000;
 }
 
@@ -39,7 +39,7 @@ body {
     position: relative;
     font-family: "IBM Plex Mono", Courier, monospace;
     font-weight: 500;
-    background-color: var(--bg);
+    background-color: transparent;
     color: var(--fg);
     min-height: 100vh;
     width: 100vw;
@@ -69,7 +69,7 @@ body::before {
 }
 
 .hamburger-btn {
-    background: var(--bg);
+    background: var(--card-bg);
     border: 2px solid var(--fg);
     color: var(--fg);
     padding: 10px 18px;
@@ -91,7 +91,7 @@ body::before {
     top: 100%;
     right: 0;
     margin-top: 8px;
-    background: var(--bg);
+    background: var(--card-bg);
     border: 2px solid var(--border);
     width: 320px;
     display: none;
@@ -113,7 +113,7 @@ body::before {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--bg);
+    background: var(--card-bg);;
     transition: color 0.1s, background 0.1s, padding-left 0.1s;
 }
 
@@ -601,7 +601,7 @@ footer {
 
 .brutalist-input {
     width: 100%;
-    background: var(--bg);
+    background: var(--card-bg);;
     border: 2px solid var(--border);
     color: var(--fg);
     padding: 14px 16px;
@@ -674,6 +674,6 @@ footer {
 .mx-auto { margin: 0 auto; }
 .cv-padding { width: 100%; padding: 100px 40px; text-align: center; }
 .project-padding { width: 100%; padding: 30px 40px; }
-.contact-section-wrap { margin-top: 150px; }
+.contact-section-wrap { margin-top: 0; }
 .form-container { display: flex; flex-direction: column; gap: 20px; text-align: left; }
 .form-label { display: block; font-size: 0.85rem; margin-bottom: 8px; color: var(--muted); }
